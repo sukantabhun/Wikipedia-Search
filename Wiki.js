@@ -2,6 +2,7 @@ let searchEl = document.getElementById('searchInput');
 let searchResultsEl = document.getElementById('searchResults');
 let spinner = document.getElementById('spinner');
 
+//function for creating each result
 function createAndAppendSearch(result) {
     
     // creating result items container
