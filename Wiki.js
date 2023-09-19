@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function() {
 let searchEl = document.getElementById('searchInput');
 let searchResultsEl = document.getElementById('searchResults');
 let spinner = document.getElementById('spinner');
@@ -75,3 +76,4 @@ function wikipediaSearch(event) {
     }
 }
 searchEl.addEventListener('keydown', wikipediaSearch);
+});
